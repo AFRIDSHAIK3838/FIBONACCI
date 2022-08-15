@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FIBONACCI {
     public static void main(String[] args) {
-        int n1=0,n2=1,n3;
+        int A=0,B=1,n3;
         int Range;
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter The Range");
@@ -11,8 +11,8 @@ public class FIBONACCI {
         {
             n3=n1+n2;
             System.out.print(""+n3);
-            n1=n2;
-            n2=n3;
+            A=B;
+            B=n3;
             
         }
     }
